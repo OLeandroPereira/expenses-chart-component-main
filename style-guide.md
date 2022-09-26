@@ -1,33 +1,33 @@
-# Front-end Style Guide
+# Guia de estilo de front-end
 
-## Layout
+## Disposição
 
-The designs were created to the following widths:
+Os desenhos foram criados para as seguintes larguras:
 
-- Mobile: 375px
-- Desktop: 1440px
+- Celular: 375px
+- Área de trabalho: 1440px
 
-## Colors
+## Cores
 
-### Primary
+### Primário
 
-- Soft red: hsl(10, 79%, 65%)
-- Cyan: hsl(186, 34%, 60%)
+- Vermelho suave: hsl(10, 79%, 65%)
+- Ciano: hsl(186, 34%, 60%)
 
-### Neutral
+### Neutro
 
-- Dark brown: hsl(25, 47%, 15%)
-- Medium brown: hsl(28, 10%, 53%)
-- Cream: hsl(27, 66%, 92%)
-- Very pale orange: hsl(33, 100%, 98%)
+- Marrom escuro: hsl(25, 47%, 15%)
+- Marrom médio: hsl(28, 10%, 53%)
+- Creme: hsl(27, 66%, 92%)
+- Laranja muito pálido: hsl(33, 100%, 98%)
 
-## Typography
+## Tipografia
 
-### Body Copy
+### Cópia do corpo
 
-- Font size: 18px
+- Tamanho da fonte: 18px
 
-### Font
+### Fonte
 
-- Family: [DM Sans](https://fonts.google.com/specimen/DM+Sans)
-- Weights: 400, 700
+- Família: [DM Sans](https://fonts.google.com/specimen/DM+Sans)
+- Pesos: 400, 700

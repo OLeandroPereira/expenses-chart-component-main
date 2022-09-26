@@ -2,42 +2,61 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- exibe o site corretamente com base no dispositivo do usuário -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Expenses chart component</title>
+  <link rel="stylesheet" href="style.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Componente do gráfico de despesas</title>
+
+  <!-- Sinta-se à vontade para remover esses estilos ou personalizar em sua própria folha de estilo 👍 -->
+  
 </head>
 <body>
 
-  My balance
-  $921.48
+  <main>
+    <div class="balancy">
+      <h1>Meu Saldo</h1>
+      <p>$921.48</p>
+      <img src="/images/logo.svg" alt="logo">
+    </div>
+        
+    <div class="principal">     
+      <div class="despesas">
+          <p>Gastos - Últimos 7 dias</p>
+      </div>    
 
-  Spending - Last 7 days
-
-  mon
-  tue
-  wed
-  thu
-  fri
-  sat
-  sun
-
-  Total this month
-  $478.33
-
-  +2.4%
-  from last month
+      <div>
+        <ul>
+          <li>seg</li>
+          <li>ter</li>
+          <li>qua</li>
+          <li>qui</li>
+          <li>sex</li>
+          <li>sab</li>
+          <li>dom</li>
+        </ul>
+      </div>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+      <div class="mes-atual">
+        <p>Total este mês</p> 
+        <h1>$478.33</h1> 
+      </div>
+
+      <div class="mes-passado">
+        <p>+2.4%</p>   
+        <p>do mês passado</p>
+      </div> 
+    
+
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </div>
+  </main>
+  
 </body>
 </html>
