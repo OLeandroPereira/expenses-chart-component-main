@@ -1,79 +1,110 @@
 body{
-    
+    background-color: #fff;
     font-family: 'dm sans';
+    max-width: 1440px;
+    width: 100%;
     height: 100vh;
-    position: static;
-    
 }
 
-.principal{
-    display: block;
-    background-color: hsl(25, 17%, 27%);
-    width: 18rem;
-    height: 15rem;
-    border-radius: 10px;
+main{
+    width: 700px;
+    height: 400px;
+    background-color: rgba(red, rgba(0, 128, 0, 0.144), blue, alpha);
     margin: auto;
+    padding: 40px;
 }
 
-
-
-.balancy{
-    background-color: hsl(187, 39%, 62%);
-    width: 18rem;
-    height: 3.7rem;
+header{
+    width: 270px;
+    height: 60px;
+    align-items: center;
+    padding-left: 30px;
+    gap: 140px;
+    display: flex;
+    margin: 0;
     border-radius: 10px;
+    background-color: hsl(17, 65%, 66%);
     margin: auto;
-    font-size: 7px;
-    
-}
-
-h1 {
-    padding-left: 10px;
-    color: hsl(25, 47%, 15%);
-}
-
-p{
-    font-size: 11px;
-    margin: 3%;
 }
 
 img{
-    width: 37px;
-    padding-left: 230px;
-    margin: 0px;
-
+    width: 40px;
+    align-items: center;
+    border: none;
+    margin: 0;
     
 }
 
-.despesas{
-    width: 250px;
+.box-grafico{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: hsl(204, 93%, 44%);
+}
+
+li{
+    margin-top: 150px;
+}
+
+h1{
+    font-size: 18px;
+    padding: 0;
+    margin-top: 5px;
+}
+
+h2{
+    margin: 0;
+    font-size: 11px;
+    border: none;
+    padding: 0;
+    margin-top: 5px;
+    color: hsl(28, 10%, 53%);
 }
 
 ul{
+    width: 10px;
+    height: 30px;
     display: flex;
-    list-style: none;
-    gap: 10px;
-    margin: auto;
-    padding: 15px;
-    align-items: center;
-    
+    gap: 15px;
+    list-style-type: none;
 }
 
-.mes-tual{
-    width: 10px;
+li > a{
+    text-decoration-line: none;
+    font-size: 11px;
+    color: hsl(28, 10%, 53%);
+}
+
+.title{
+    margin-left: 30px;
+    font-size: 11px;
+}
+
+.gastos{
+    width: 270px;
+    height: 60px;
+    text-align: center;
+    padding-left: 30px;
+    gap: 80px;
+    display: flex;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.mes-atual{
+    margin-top: 150px;
+    text-align: left;
 }
 
 .mes-passado{
-    
+    margin-top: 157px;
     text-align: end;
-    margin-right: 15px;
-    font-size: 11px;
-    margin-left: 0px;
-    
 }
 
 .attribution { 
     font-size: 8px; text-align: center; 
+    margin-top: 150px;
 }
 
 .attribution a { 
