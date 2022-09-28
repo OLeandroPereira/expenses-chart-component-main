@@ -1,5 +1,5 @@
 body{
-    background-color: #fff;
+    background-color: hsl(27, 66%, 92%);
     font-family: 'dm sans';
     max-width: 1440px;
     width: 100%;
@@ -15,7 +15,7 @@ main{
 }
 
 header{
-    width: 270px;
+    width: 320px;
     height: 60px;
     align-items: center;
     padding-left: 30px;
@@ -23,8 +23,9 @@ header{
     display: flex;
     margin: 0;
     border-radius: 10px;
-    background-color: hsl(17, 65%, 66%);
+    background-color: hsl(10, 79%, 65%);
     margin: auto;
+    margin-top: 100px;
 }
 
 img{
@@ -32,15 +33,15 @@ img{
     align-items: center;
     border: none;
     margin: 0;
-    
 }
 
-.box-grafico{
+.semana{
+    padding-top: 10px;
     margin: auto;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     border-radius: 10px;
-    background-color: hsl(204, 93%, 44%);
+    background-color: hsl(33, 100%, 98%)
 }
 
 li{
@@ -51,15 +52,29 @@ h1{
     font-size: 18px;
     padding: 0;
     margin-top: 5px;
+    color: hsl(33, 100%, 98%);
 }
 
 h2{
     margin: 0;
-    font-size: 11px;
+    font-size: 13px;
     border: none;
     padding: 0;
     margin-top: 5px;
-    color: hsl(28, 10%, 53%);
+    color: hsl(33, 100%, 98%);
+    width: 100px;
+}
+
+p{
+    margin: 0;
+    width: 150px;
+    text-align: end;
+
+}
+
+strong{
+    color: hsl(25, 47%, 15%);
+    font-size: 25px;
 }
 
 ul{
@@ -79,6 +94,7 @@ li > a{
 .title{
     margin-left: 30px;
     font-size: 11px;
+    color: hsl(25, 47%, 15%);
 }
 
 .gastos{
@@ -86,25 +102,38 @@ li > a{
     height: 60px;
     text-align: center;
     padding-left: 30px;
-    gap: 80px;
+    gap: 50px;
     display: flex;
     margin: 0;
     border-radius: 10px;
 }
 
+
 .mes-atual{
-    margin-top: 150px;
     text-align: left;
+    
+}
+
+.mes-atual > h2{
+    margin-top: 45px;
+    color: hsl(28, 10%, 53%)
 }
 
 .mes-passado{
-    margin-top: 157px;
-    text-align: end;
+    margin-top: 45px;
+    padding-right: 50px;
+    width: 550px;
+}
+
+.mes-passado > h2{
+    text-align: center;
+    color: hsl(25, 47%, 15%);
+    
 }
 
 .attribution { 
     font-size: 8px; text-align: center; 
-    margin-top: 150px;
+    margin-top: 55px;
 }
 
 .attribution a { 

@@ -11,14 +11,13 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Componente do gráfico de despesas</title>
 
-  <!-- Sinta-se à vontade para remover esses estilos ou personalizar em sua própria folha de estilo 👍 -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   
+
 </head>
 <body>
 
   <main>
-
-      
     <header>
         <div class="box-saldo">
             <h2>Meu Saldo</h2>
@@ -26,29 +25,45 @@
         </div>
 
         <div class="logo">
-            <img src="/images/logo.svg" alt="logo">
+            <img src="images/logo.svg" alt="logo">
         </div>
         
     </header>
-      
     
-    <div class="box-grafico">
-        <nav>
-            <ul>
-                <li><a href=”#”>seg</a></li>
-                <li><a href=”#”>ter</a></li>
-                <li><a href=”#”>qua</a></li>
-                <li><a href=”#”>qui</a></li>
-                <li><a href=”#”>sex</a></li>
-                <li><a href=”#”>sab</a></li>
-                <li><a href=”#”>dom</a></li>
-            </ul>
-        </nav> 
+    <div class="semana">
 
         <div class="title">
             <h3>Gastos - Últimos 7 dias</h3>
         </div>
-                  
+
+        <div>
+            <canvas id="grafico"></canvas>
+        </div>
+        
+        <script>
+            const ctx = document.getElementById('grafico');
+            const grafico = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['seg', 'ter', 'qua', 'qui', 'sext', 'sab', 'dom'],
+                    datasets: [{
+                        label: 'R$',
+                        data: [17.45, 34.91, 52.36, 31.07, 23.39, 43.28, 25.48],
+                        backgroundColor: [
+                            'hsl(10, 79%, 65%)',
+                        ],
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+            </script>
+    
         <div class="gastos">      
             <div class="mes-atual">
                 <h2>Total este mês</h2> 
@@ -56,8 +71,8 @@
             </div>
 
             <div class="mes-passado">
-                <h2>+2.4%</h2>   
-                <h2>do mês passado</h2>
+                <p><strong>+2.4%</strong></p>   
+                <p>do mês passado</p>
             </div> 
         </div>
 
@@ -68,5 +83,8 @@
   </div>   
   </main>
   
+ 
+ 
+   
 </body>
 </html>
