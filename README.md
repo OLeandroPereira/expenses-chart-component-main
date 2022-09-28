@@ -33,8 +33,8 @@ Os usuários devem ser capazes de:
 
 ## Tecnologias utilizadas:
 
-- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)<br> - HTML
-- [CSS](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/CSS_basics)<br> - Propriedades personalizadas de CSS
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML) - HTML
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Learn etting_started_with_the_web/CSS_basics) - Propriedades personalizadas de CSS
 - [FLEXBOX](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Flexbox
 - Grid CSS
 - Fluxo de trabalho mobile-first
