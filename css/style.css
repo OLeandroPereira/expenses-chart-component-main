@@ -1,31 +1,33 @@
-body{
-    background-color: hsl(27, 66%, 92%);
-    font-family: 'dm sans';
-    max-width: 1440px;
-    width: 100%;
+#container{
+    width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;     
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background: hsl(27, 66%, 92%);
+    font-family: 'dm sans';
+    margin: 0;
 }
 
 main{
-    width: 700px;
-    height: 400px;
-    background-color: rgba(red, rgba(0, 128, 0, 0.144), blue, alpha);
-    margin: auto;
-    padding: 40px;
+    align-items: center;
 }
 
-header{
+.box-1{
     width: 320px;
     height: 60px;
     align-items: center;
     padding-left: 30px;
     gap: 140px;
     display: flex;
-    margin: 0;
     border-radius: 10px;
     background-color: hsl(10, 79%, 65%);
     margin: auto;
-    margin-top: 100px;
+    margin-top: 170px;
 }
 
 img{
@@ -35,13 +37,13 @@ img{
     margin: 0;
 }
 
-.semana{
+.container-2{
     padding-top: 10px;
     margin: auto;
     width: 350px;
-    height: 350px;
     border-radius: 10px;
-    background-color: hsl(33, 100%, 98%)
+    background-color: hsl(33, 100%, 98%);
+    margin-bottom: 150px;
 }
 
 li{

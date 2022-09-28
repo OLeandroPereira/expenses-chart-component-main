@@ -6,7 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Componente do gráfico de despesas</title>
@@ -18,69 +18,70 @@
 <body>
 
   <main>
-    <header>
-        <div class="box-saldo">
-            <h2>Meu Saldo</h2>
-            <h1>$921.48</h1>
-        </div>
-
-        <div class="logo">
-            <img src="images/logo.svg" alt="logo">
-        </div>
-        
-    </header>
-    
-    <div class="semana">
-
-        <div class="title">
-            <h3>Gastos - Últimos 7 dias</h3>
-        </div>
-
-        <div>
-            <canvas id="grafico"></canvas>
-        </div>
-        
-        <script>
-            const ctx = document.getElementById('grafico');
-            const grafico = new Chart(ctx, {
-                type: 'bar',
-                data: {
-                    labels: ['seg', 'ter', 'qua', 'qui', 'sex', 'sab', 'dom'],
-                    datasets: [{
-                        label: 'R$',
-                        data: [17.45, 34.91, 52.36, 31.07, 23.39, 43.28, 25.48],
-                        backgroundColor: [
-                            'hsl(10, 79%, 65%)',
-                        ],
-                    }]
-                },
-                options: {
-                    scales: {
-                        y: {
-                            beginAtZero: true
-                        }
-                    }
-                }
-            });
-            </script>
-    
-        <div class="gastos">      
-            <div class="mes-atual">
-                <h2>Total este mês</h2> 
-                <h1><strong>$478.33</strong></h1> 
+    <div id="container">
+        <header class="box-1">
+            <div class="box-saldo">
+                <h2>Meu Saldo</h2>
+                <h1>$921.48</h1>
             </div>
 
-            <div class="mes-passado">
-                <p><strong>+2.4%</strong></p>   
-                <p>do mês passado</p>
-            </div> 
-        </div>
+            <div class="logo">
+                <img src="images/logo.svg" alt="logo">
+            </div>
+            
+        </header>
+    
+        <div class="container-2">
+            <div class="title">
+                <h3>Gastos - Últimos 7 dias</h3>
+            </div>
 
-        <div class="attribution">
-        Desafiado por <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Codado por <a href="#">Leandro Pereira</a>.
+            <div>
+                <canvas id="grafico"></canvas>
+            </div>
+            
+            <script>
+                const ctx = document.getElementById('grafico');
+                const grafico = new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: ['seg', 'ter', 'qua', 'qui', 'sex', 'sab', 'dom'],
+                        datasets: [{
+                            label: 'R$',
+                            data: [17.45, 34.91, 52.36, 31.07, 23.39, 43.28, 25.48],
+                            backgroundColor: [
+                                'hsl(10, 79%, 65%)',
+                            ],
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                });
+                </script>
+        
+            <div class="gastos">      
+                <div class="mes-atual">
+                    <h2>Total este mês</h2> 
+                    <h1><strong>$478.33</strong></h1> 
+                </div>
+
+                <div class="mes-passado">
+                    <p><strong>+2.4%</strong></p>   
+                    <p>do mês passado</p>
+                </div> 
+            </div>
+
+            <footer class="attribution">
+            Desafiado por <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Codado por <a href="#">Leandro Pereira</a>.
+            </footer>
         </div>
-  </div>   
+    </div>       
   </main>
   
  
