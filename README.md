@@ -1,3 +1,5 @@
+<div id="top">
+
 # Frontend Mentor - Solução de componente de gráfico de despesas
 
 Esta é uma solução para o [desafio do componente do gráfico de despesas no Frontend Mentor](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
@@ -16,10 +18,13 @@ Esta é uma solução para o [desafio do componente do gráfico de despesas no F
 - [Autor](#autor)
 - [Agradecimentos](#agradecimentos)-->
 
+<h1>
 
 ## Visão geral
 
-### O desafio
+<h1>
+
+## O desafio
 
 Os usuários devem ser capazes de:
 
@@ -28,8 +33,11 @@ Os usuários devem ser capazes de:
 - Visualize o layout ideal para o conteúdo, dependendo do tamanho da tela do dispositivo
 - Veja os estados de foco para todos os elementos interativos na página
 
+<h1>
 
-## Meu processo
+<!--## Meu processo-->
+
+
 
 ## Tecnologias utilizadas:
 
@@ -68,12 +76,17 @@ const proudOfThisFunc = () => {
 }
 
 -->
+<h1>
 
-### Desenvolvimento contínuo
+## Desenvolvimento contínuo
 
 Continuarei focado em HTML e CSS, e adicionando aos poucos a linguagem JavaScript, para ir melhorando cada vez mais.
-
+<h1>
+<br>
+<h1>
 <a href="https://graficodedespesas.netlify.app/" target="_blank">VEJA O SITE</a>
+
+
 
 <!---### Recursos úteis
 
@@ -82,8 +95,11 @@ Continuarei focado em HTML e CSS, e adicionando aos poucos a linguagem JavaScrip
 
 *Nota: Apague esta nota e substitua a lista acima por recursos que o ajudaram durante o desafio. Eles podem ser úteis para qualquer pessoa que esteja visualizando sua solução ou para você mesmo quando fizer uma retrospectiva deste projeto no futuro.*-->
 
-## Autor
 
+
+
+
+## Me siga nas Redes:
 
 <a href="https://linkedin.com/in/leandropereira-dev/" target="_blank">
     <img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/>
@@ -91,15 +107,25 @@ Continuarei focado em HTML e CSS, e adicionando aos poucos a linguagem JavaScrip
 <a href="https://www.instagram.com/le_codigo/" target="_blank">
     <img align="center" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white/le_codigo" alt="linkedin"/>
 </a> 
+<br>
+<br>
+<h1>
 
 <!--## Agradecimentos
 
 É aqui que você pode dar uma dica de chapéu para quem o ajudou neste projeto. Talvez você tenha trabalhado em equipe ou tenha se inspirado na solução de outra pessoa. Este é o lugar perfeito para dar-lhes algum crédito.
 
-*Nota: Exclua esta nota e edite o conteúdo desta seção conforme necessário. Se você completou este desafio sozinho, sinta-se à vontade para excluir esta seção completamente.*-->
+*Nota: Exclua esta nota e edite o conteúdo desta seção conforme necessário. Se você completou este desafio sozinho, sinta-se à vontade para excluir esta seção completamente.-->
 
 <br>
 <br>
 <br>
+<h3>
 
 Feito com muito estudo e dedicação por <a href="https://github.com/OLeandroPereira" target="_blank">Leandro Pereira.</a>
+
+<h3>
+<br>
+<br>
+
+<a href="#top"> << Voltar ao início</a>
