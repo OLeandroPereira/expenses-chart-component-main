@@ -2,7 +2,7 @@
 
 Esta é uma solução para o [desafio do componente do gráfico de despesas no Frontend Mentor](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
 
-## Índice
+<!--## Índice
 
 - [Visão geral](#visão geral)
   - [O desafio](#the-challenge)
@@ -14,7 +14,7 @@ Esta é uma solução para o [desafio do componente do gráfico de despesas no F
   - [Desenvolvimento contínuo](#desenvolvimento contínuo)
   - [Recursos úteis](#useful-resources)
 - [Autor](#autor)
-- [Agradecimentos](#agradecimentos)
+- [Agradecimentos](#agradecimentos)-->
 
 
 ## Visão geral
@@ -66,7 +66,7 @@ const proudOfThisFunc = () => {
 
 ### Desenvolvimento contínuo
 
-Estarei dando continuidade na linguagem JavaScript, e continuarei aplicando em desafios para o melhorar a técnica e confiança.
+Estarei dando continuidade na linguagem JavaScript, e continuarei trabalhando com esta linguagem nos próximos projetos para melhorar a técnica e a confiança.
 
 
 <!---### Recursos úteis
@@ -79,7 +79,7 @@ Estarei dando continuidade na linguagem JavaScript, e continuarei aplicando em d
 ## Autor
 
 - Site - [Leandro Pereira](https://github.com/OLeandroPereira)
-- Mentor de frontend - [@seunomedeusuário](https://www.frontendmentor.io/profile/OLeandroPereira)
+- Mentor de frontend - [@Leandro Pereira](https://www.frontendmentor.io/profile/OLeandroPereira)
 - Instagram - [@le_codigo](https://www.instagram.com/le_codigo/)
 
 
