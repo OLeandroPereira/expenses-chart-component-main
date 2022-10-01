@@ -7,10 +7,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <link rel="stylesheet" href="css/style.css">
-
+  <script defer src="./script.js"></script>  
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Componente do gráfico de despesas</title>
-
+    
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   
 
@@ -39,30 +39,6 @@
                 <canvas id="grafico"></canvas>
             </div>
             
-            <script>
-                const ctx = document.getElementById('grafico');
-                const grafico = new Chart(ctx, {
-                    type: 'bar',
-                    data: {
-                        labels: ['seg', 'ter', 'qua', 'qui', 'sex', 'sab', 'dom'],
-                        datasets: [{
-                            label: 'R$',
-                            data: [17.45, 34.91, 52.36, 31.07, 23.39, 43.28, 25.48],
-                            backgroundColor: [
-                                'hsl(10, 79%, 65%)',
-                            ],
-                        }]
-                    },
-
-                    options: {
-                        scales: {
-                            y: {
-                                beginAtZero: true
-                            }
-                        }
-                    }
-                });
-            </script>
         
             <div class="gastos">      
                 <div class="mes-atual">
