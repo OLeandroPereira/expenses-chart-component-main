@@ -41,13 +41,13 @@ Os usuários devem ser capazes de:
 
 ## Tecnologias utilizadas:
 
-- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML) - HTML
-- [CSS](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/CSS_basics) - Propriedades personalizadas de CSS
-- [FLEXBOX](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Flexbox
+- HTML
+- Propriedades personalizadas de CSS
+- Flexbox
 - Grid CSS
 - Fluxo de trabalho mobile-first
-- [JavaScript](https://www.javascript.com/) - Linguagem JS
-- [Componentes estilizados](https://styled-components.com/) - Para estilos
+- Linguagem JS
+- Para estilos
 
 
 <br>
@@ -78,14 +78,17 @@ const proudOfThisFunc = () => {
 -->
 <h1>
 
-## Desenvolvimento contínuo
+## Desenvolvimento 
 
-Continuarei focado em HTML e CSS, e adicionando aos poucos a linguagem JavaScript, para ir melhorando cada vez mais.
+Me sinto realizado por ter conseguido incluir a linguagem Javascript no meu projeto, sinto que estarei ainda melhor para o próximo desafio.
+
 <h1>
 <br>
-<h1>
-<a href="https://graficodedespesas.netlify.app/" target="_blank">VEJA O SITE</a>
 
+<h3>
+<a href="https://graficodedespesas.netlify.app/" target="_blank">Veja o Deploy</a>
+
+<h1>
 
 
 <!---### Recursos úteis
@@ -111,15 +114,6 @@ Continuarei focado em HTML e CSS, e adicionando aos poucos a linguagem JavaScrip
 <br>
 <h1>
 
-<!--## Agradecimentos
-
-É aqui que você pode dar uma dica de chapéu para quem o ajudou neste projeto. Talvez você tenha trabalhado em equipe ou tenha se inspirado na solução de outra pessoa. Este é o lugar perfeito para dar-lhes algum crédito.
-
-*Nota: Exclua esta nota e edite o conteúdo desta seção conforme necessário. Se você completou este desafio sozinho, sinta-se à vontade para excluir esta seção completamente.-->
-
-<br>
-<br>
-<br>
 <h3>
 
 Feito com muito estudo e dedicação por <a href="https://github.com/OLeandroPereira" target="_blank">Leandro Pereira.</a>

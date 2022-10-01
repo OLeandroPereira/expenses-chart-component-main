@@ -8,7 +8,7 @@
 }
 
 body{
-    background: hsl(27, 66%, 92%);
+    background: hsl(27, 36%, 85%);
     font-family: 'dm sans';
     margin: 0;
 }
@@ -25,7 +25,7 @@ main{
     gap: 140px;
     display: flex;
     border-radius: 10px;
-    background-color: hsl(10, 79%, 65%);
+    background-color: #EC775F;
     margin: auto;
     margin-top: 170px;
 }
@@ -42,7 +42,7 @@ img{
     margin: auto;
     width: 350px;
     border-radius: 10px;
-    background-color: hsl(33, 100%, 98%);
+    background-color: rgb(255, 250, 245);
     margin-bottom: 150px;
 }
 
