@@ -5,10 +5,11 @@
     flex-direction: column;     
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
 body{
-    background: hsl(27, 36%, 85%);
+    background: hsl(27, 66%, 92%);
     font-family: 'dm sans';
     margin: 0;
 }
@@ -26,8 +27,6 @@ main{
     display: flex;
     border-radius: 10px;
     background-color: #EC775F;
-    margin: auto;
-    margin-top: 170px;
 }
 
 img{
@@ -39,11 +38,11 @@ img{
 
 .container-2{
     padding-top: 10px;
-    margin: auto;
+    margin: 10px;
     width: 350px;
     border-radius: 10px;
     background-color: rgb(255, 250, 245);
-    margin-bottom: 150px;
+    
 }
 
 li{
