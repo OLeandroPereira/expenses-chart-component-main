@@ -84,8 +84,7 @@ Orgulhoso com progresso que estou tendo com a nova linguagem JavaScript.
 
 <br>
 
-```
- 
+```JS
 const ctx = document.getElementById('grafico');
 const grafico = new Chart(ctx, {
     type: 'bar',
@@ -108,7 +107,6 @@ const grafico = new Chart(ctx, {
         }
     }
 });
-
 ```
 
 
