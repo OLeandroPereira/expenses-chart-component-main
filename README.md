@@ -42,7 +42,7 @@ Os usuários devem ser capazes de:
 <br>
 
 <div align="center"> 
-  <img src="design/active-states.jpg">
+  <img src="assets/design/active-states.jpg">
 </div>
 
 <h1></h1>
